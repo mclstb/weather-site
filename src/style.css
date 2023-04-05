@@ -132,3 +132,8 @@ hr {
   position: relative;
   top: 10px;
 }
+
+.github {
+  font-size: xx-small;
+  float: right;
+}
