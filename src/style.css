@@ -1,0 +1,134 @@
+.container {
+  padding-top: 10px;
+  padding-bottom: 25px;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/069/305/original/dawn.jpg?1677500795");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+body {
+  width: 550px;
+}
+
+.search-button {
+  padding: 0;
+  float: right;
+}
+
+.current-city-button {
+  padding: 0;
+  float: right;
+}
+
+.cityInput {
+  background: none;
+  border: 1px solid white;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+.search-icon {
+  color: #ffffff;
+}
+
+.body {
+  position: relative;
+  top: 20px;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 42px;
+}
+
+.first-row {
+  position: relative;
+  left: 20px;
+}
+
+.weather {
+  text-align: center;
+}
+
+.date {
+  font-size: 16px;
+  position: relative;
+  top: 5px;
+}
+
+.weather-today {
+  font-size: 22px;
+  position: relative;
+  top: 10px;
+}
+
+.today {
+  top: 35px;
+  left: 60px;
+}
+
+.temperature {
+  font-size: 80px;
+  position: relative;
+  text-align: center;
+  left: 25px;
+}
+
+.degrees {
+  font-size: 19px;
+  position: relative;
+  bottom: 42px;
+  right: 25px;
+}
+
+.max-min {
+  font-size: 16px;
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+  top: 15px;
+}
+
+.forecast {
+  position: relative;
+  left: 20px;
+  top: 25px;
+}
+
+.day-forecast {
+  align: right;
+  margin-bottom: 20px;
+  text-align: center;
+  position: relative;
+  left: 25px;
+  top: 5px;
+  width: 460px;
+  display: flex;
+}
+
+.day {
+  width: 92px;
+}
+
+hr {
+  border-color: rgb(102, 101, 101);
+}
+
+.forecast-maxmin {
+  font-size: 14px;
+  position: relative;
+  top: 10px;
+}
